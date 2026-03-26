@@ -1,0 +1,17 @@
+*{
+    font-family: "Times New Roman";
+}
+
+#heading1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#d1{
+    font-size: 25px;
+}
+
+#d2{
+    font-size: 10px;
+}

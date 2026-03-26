@@ -1,0 +1,9 @@
+#div{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    background-image: url(car.avif);
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+}
