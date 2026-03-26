@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+div:hover{
+    background-color: blue;
+}
+
+div:active{
+    background-color: rgb(0, 153, 255);
+}
