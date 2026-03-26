@@ -1,0 +1,22 @@
+h2{
+    color : red;
+}
+
+p{
+    color : blue;
+}
+
+button{
+    color : orange;
+}
+
+body{
+    background-color: silver;
+}
+
+button{
+    /* RGB system */
+    background-color: rgb(0,0,255);
+    /* Hex system */
+    /* background-color: #ff0000; */
+}
