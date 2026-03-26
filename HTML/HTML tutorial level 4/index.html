@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <!-- lists unordered-->
+        <ul>
+            <li> Apple </li>
+            <li> Mango </li>
+            <li> Lichi </li>
+        </ul>
+
+        <!-- sub lists -->
+        <ul>
+            <li>
+                Apple
+                <ul>
+                    <li> Season : winter </li>
+                    <li> Color : red </li>
+                </ul>
+            </li>
+        </ul>
+
+        <br>
+        <!-- lists ordered-->
+        <ol>
+            <li> Apple </li>
+            <li> Mango </li>
+            <li> Lichi </li>
+        </ol>
+
+        <!-- sub lists -->
+        <ol>
+            <li>
+                Apple
+                <ol>
+                    <li> Season : winter </li>
+                    <li> Color : red </li>
+                </ol>
+            </li>
+        </ol>
+
+
+        <!-- table -->
+        <table>
+            <thead>
+            <caption>
+                Student data
+            </caption>
+            <tr>
+                <!-- merge columns -->
+                <!-- <th colspan="2">Informations</th> -->
+                <th>Name</th> 
+                <th>Roll</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Nill</td>
+                <td>666</td>
+            </tr>
+
+            <tr>
+                <td>Nb</td>
+                <td>667</td>
+            </tr>
+
+            <tr>
+                <td>Nc</td>
+                <td>668</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+        <!-- has to be own video file -->
+        <!-- <video src="https://youtu.be/SD6aouqw-Wc?si=6OObJ2n4bKm0bDYq">myvid</video> -->
+        <br><br>
+
+
+
+        <!-- form -->
+         <h3>Form</h3>
+        <form action="/action.php">
+            <input type="text" placeholder="Username : ">
+            <input type="password" placeholder="Password : ">
+
+            <br> <br>
+            <h5>Select class</h5>
+            <label for="101">
+            <input type="radio" value="class XI" name="class" id="101"> class XI
+            </label>
+
+            <br>
+            <label for="102">
+            <input type="radio" value="class XII" name="class" id="102"> class XII
+            </label>
+
+
+
+
+            <br> <br>
+            <h5>Select fav subjects</h5>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="103"> Math
+            </label>
+
+            <label for="phy">
+                <input type="checkbox" value="phy" name="subject" id="104"> Physics
+            </label>
+
+            <label for="chem">
+                <input type="checkbox" value="chem" name="subject" id="105"> Chemistry
+            </label>
+
+            <label for="CS">
+                <input type="checkbox" value="CS" name="subject" id="106"> CS
+            </label>
+
+
+            <br><br>
+            <select name="city" id="101">
+                <option value="Delhi">Delhi</option>
+                <option value="Pune">Pune</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Sylhet">Sylhet</option>
+            </select>
+
+
+            <br><br>
+            <textarea name="feedback" id="101" placeholder="Please give your feedback here" rows="5"></textarea>
+
+            <br><br>
+            <input type="submit" value="submit">
+
+            <br><br>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/2yIDV88e_E8?si=Vp7oEhQdbWl9rDka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        </form>
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
