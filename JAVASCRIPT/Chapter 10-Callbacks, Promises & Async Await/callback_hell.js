@@ -34,3 +34,33 @@ getData(1,()=> {
         });
     });
 });
+
+
+
+// above example as promise chaining
+function getData(dataId, getNextData) {
+    return new Promise((resolve, reject) => {
+        setTimeout(()=>{
+            console.log("data : ", dataId);
+            resolve("success");
+            if(getNextData) {
+                getNextData();
+            }
+        
+        },5000);   
+    });  
+    
+}
+
+// let p1=getData();
+// p1.then((res)=>{
+//     console.log(res);    
+// }); 
+// can also be written like
+getData(1)
+    .then((res)=>{
+        return getData(2); 
+    })
+    .then((res)=>{
+        console.log(res);
+});
